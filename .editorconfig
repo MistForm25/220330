@@ -1,0 +1,13 @@
+root = true
+
+[*]
+indent_size = 4
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+
+[{Makefile,*.mk}]
+indent_style = tab
+
+[test/*.txt]
+insert_final_newline = false
